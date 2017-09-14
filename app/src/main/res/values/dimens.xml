@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <dimen name="margin_3">3dp</dimen>
+    <dimen name="margin_1.5">1.5dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
+    <dimen name="margin_55">55dp</dimen>
+
+    <dimen name="margin_65">60dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_13">13dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_35">35dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_45">45dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_7">7dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_1">1dp</dimen>
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_80">80dp</dimen>
+    <dimen name="margin_23">24dp</dimen>
+    <dimen name="margin_18">18dp</dimen>
+
+    <dimen name="fb_icon_size">75dp</dimen>
+    <dimen name="fb_icon">65dp</dimen>
+    <dimen name="header_icon_size">85dp</dimen>
+    <dimen name="profile_size">120dp</dimen>
+    <dimen name="news_icon_size">55dp</dimen>
+    <dimen name="search_icon_size">55dp</dimen>
+    <dimen name="splash_icon_size">130dp</dimen>
+    <dimen name="vehcle_icon_size">75dp</dimen>
+    <dimen name="profile_icon_size">70dp</dimen>
+    <dimen name="news_icon_height">170dp</dimen>
+
+    <dimen name="icon_height">200dp</dimen>
+
+    <dimen name="txtsize_15">15sp</dimen>
+    <dimen name="txtsize_14">14sp</dimen>
+    <dimen name="txtsize_12">12sp</dimen>
+    <dimen name="txtsize_18">18sp</dimen>
+    <dimen name="txtsize_20">20sp</dimen>
+    <dimen name="txtsize_16">16sp</dimen>
+    <dimen name="txtsize_25">25sp</dimen>
+    <dimen name="txtsize_19">19sp</dimen>
+    <dimen name="txtsize_22">22sp</dimen>
+    <dimen name="txtsize_10">10sp</dimen>
+    <dimen name="txtsize_30">30sp</dimen>
+
+
+</resources>

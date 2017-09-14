@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:padding="5dp"
+    android:layout_margin="4dp"
+    android:elevation="3dp"
+    android:background="@color/color_white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="3dp"
+        android:background="@drawable/event_card_bg">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/x_ballon_code"
+            android:id="@+id/imEventIcon"
+            android:scaleType="fitXY"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:padding="3dp">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"
+                android:layout_centerInParent="true">
+            </View>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:text="X-FIFA-BATTLE-LDRP"
+                android:textAlignment="center"
+                android:id="@+id/tvEventName"
+                android:textColor="@color/color_black"
+                android:padding="5dp"
+                android:background="@drawable/card_bg"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

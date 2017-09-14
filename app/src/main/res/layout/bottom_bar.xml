@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:id="@+id/LLNavigation"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary"
+            android:weightSum="1"
+            android:id="@+id/llhome"
+            android:layout_weight=".25">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:gravity="center_vertical"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/home"
+                android:foregroundGravity="center"
+                android:layout_gravity="center"
+                android:layout_weight=".2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Home"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:layout_weight=".8"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary"
+            android:weightSum="1"
+            android:id="@+id/llrate"
+            android:layout_weight=".25">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:gravity="center_vertical"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:src="@drawable/rate_us_image"
+                android:layout_weight=".2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rate"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:layout_weight=".8"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight=".25"
+            android:id="@+id/llshare"
+            android:background="@color/colorPrimary"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/share_"
+                android:layout_weight=".2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Share"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:layout_weight=".8"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight=".25"
+            android:id="@+id/llabout"
+            android:background="@color/colorPrimary"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:gravity="center_vertical"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:src="@drawable/info"
+                android:layout_weight=".2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="About"
+                android:layout_marginBottom="2dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:layout_weight=".7"/>
+
+        </LinearLayout>
+</LinearLayout>
+
+

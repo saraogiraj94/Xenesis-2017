@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Fnt_Awsm_Button">
+        <attr name="fontName" format="string" />
+    </declare-styleable>
+    <declare-styleable name="Fnt_Awsm_textview">
+        <attr name="font" format="string" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FC642D</color>
+    <color name="colorPrimaryDark">#C55E3C</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_dark_coffee">#330000</color>
+    <color name="color_app_green">#003333</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_light_green">#77aaad</color>
+    <color name="color_light_gray">#d3d3d3</color>
+    <color name="color_gray">#dfdfdf</color>
+    <color name="color_dark_gray">#7f7f7f</color>
+    <color name="color_fb">#3b5998</color>
+    <color name="color_google">#d34836</color>
+    <color name="color_pistachio">#93C572</color>
+    <color name="color_garage">#088da5</color>
+    <color name="color_orange">#ff9800</color>
+    <color name="color_green">#008000</color>
+    <color name="color_fuel">#b29258</color>
+    <color name="color_sale">#fc4d7d</color>
+    <color name="color_buy">#662277</color>
+    <color name="color_black">#000000</color>
+    <color name="trans_black">#A6000000</color>
+    <color name="color_red">#cc0000</color>
+    <color name="color_blue">#3b5998</color>
+    <color name="color_hint">#808080</color>
+    <color name="color_schedule">#6bb120</color>
+    <color name="color_ligt_gray">#DCDCDC</color>
+    <color name="color_atm">#3b5998</color>
+    <color name="color_pvc">#088da5</color>
+    <color name="color_offwhite">#eeeeee</color>
+    <color name="color_bluelink">#3366BB</color>
+    <color name="color_bg">#f0f4f5</color>
+    <color name="fbutton_color_transparent">@android:color/transparent</color>
+
+</resources>

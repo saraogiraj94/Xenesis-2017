@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_light_gray"
+    tools:context="raj.saraogi.com.xentest.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/app9"
+        android:background="@color/color_white"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:titleTextColor="@android:color/white"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/toolbarlogo"
+                android:foregroundGravity="center"/>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app9"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/llnavigation"
+        android:layout_alignParentStart="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="2dp"
+        android:id="@+id/lldashboardbox">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/icon_height"
+
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/pager3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_white"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/margin_10"
+            android:paddingRight="@dimen/margin_10"
+            android:paddingTop="@dimen/margin_10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+
+                <LinearLayout
+                    android:id="@+id/llCEIT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/dashboard_lyl_bg"
+                    android:gravity="center"
+
+                    android:orientation="vertical"
+
+                    android:paddingBottom="@dimen/margin_20"
+                    android:paddingLeft="@dimen/margin_10"
+                    android:paddingRight="@dimen/margin_10"
+                    android:paddingTop="@dimen/margin_20">
+
+                    <ImageView
+                        android:id="@+id/img_service"
+                        android:layout_width="@dimen/fb_icon_size"
+                        android:layout_height="@dimen/fb_icon_size"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/margin_10"
+                        android:background="@drawable/fuel_lyl_bg"
+                        android:padding="2dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ce_icon" />
+
+                    <TextView
+                        android:id="@+id/txt_service"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="CE AND IT "
+                        android:textColor="@color/color_dark_gray"
+                        android:textSize="@dimen/txtsize_14"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llEC"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/dashboard_lyl_bg"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/margin_20"
+                    android:paddingLeft="@dimen/margin_10"
+                    android:paddingRight="@dimen/margin_10"
+                    android:paddingTop="@dimen/margin_20">
+
+                    <ImageView
+                        android:id="@+id/img_sale"
+                        android:layout_width="@dimen/fb_icon_size"
+                        android:layout_height="@dimen/fb_icon_size"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/margin_10"
+                        android:background="@drawable/fuel_lyl_bg"
+                        android:padding="2dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ec_icon" />
+
+                    <TextView
+                        android:id="@+id/txt_sale"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="EC"
+                        android:textColor="@color/color_dark_gray"
+                        android:textSize="@dimen/txtsize_14"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llElectrical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/dashboard_lyl_bg"
+
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/margin_20"
+                    android:paddingLeft="@dimen/margin_10"
+                    android:paddingRight="@dimen/margin_10"
+                    android:paddingTop="@dimen/margin_20">
+
+                    <ImageView
+                        android:id="@+id/img_buy"
+                        android:layout_width="@dimen/fb_icon_size"
+                        android:layout_height="@dimen/fb_icon_size"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/margin_10"
+                        android:background="@drawable/fuel_lyl_bg"
+                        android:padding="3dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ee_icon" />
+
+                    <TextView
+                        android:id="@+id/txt_buy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="ELECTRICAL"
+                        android:textColor="@color/color_dark_gray"
+                        android:textSize="@dimen/txtsize_14"
+                        android:textStyle="normal" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/llCivil"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/dashboard_lyl_bg"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/margin_25"
+                    android:paddingLeft="@dimen/margin_10"
+                    android:paddingRight="@dimen/margin_10"
+                    android:paddingTop="@dimen/margin_10">
+
+                    <ImageView
+                        android:id="@+id/img_garage"
+                        android:layout_width="@dimen/fb_icon_size"
+                        android:layout_height="@dimen/fb_icon_size"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/margin_10"
+                        android:background="@drawable/fuel_lyl_bg"
+                        android:padding="2dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/civil_icon"/>
+
+                    <TextView
+                        android:id="@+id/txt_garage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="CIVIL"
+                        android:textColor="@color/color_dark_gray"
+                        android:textSize="@dimen/txtsize_14"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llMechanical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/dashboard_lyl_bg"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/margin_20"
+                    android:paddingLeft="@dimen/margin_10"
+                    android:paddingRight="@dimen/margin_10"
+                    android:paddingTop="@dimen/margin_10">
+
+                    <ImageView
+                        android:id="@+id/img_24service"
+                        android:layout_width="@dimen/fb_icon_size"
+                        android:layout_height="@dimen/fb_icon_size"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/margin_10"
+                        android:background="@drawable/fuel_lyl_bg"
+                        android:padding="2dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/mech_icon" />
+
+                    <TextView
+                        android:id="@+id/txt_support"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="ME AND AE"
+                        android:textColor="@color/color_dark_gray"
+                        android:textSize="@dimen/txtsize_14"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/llMCA"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/dashboard_lyl_bg"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/margin_20"
+                    android:paddingLeft="@dimen/margin_10"
+                    android:paddingRight="@dimen/margin_10"
+                    android:paddingTop="@dimen/margin_10">
+
+                    <ImageView
+                        android:id="@+id/img_fuel"
+                        android:layout_width="@dimen/fb_icon_size"
+                        android:layout_height="@dimen/fb_icon_size"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/margin_10"
+                        android:background="@drawable/fuel_lyl_bg"
+                        android:padding="2dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/mba_icon" />
+
+                    <TextView
+                        android:id="@+id/txt_fuel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="MBA"
+                        android:textColor="@color/color_dark_gray"
+                        android:textSize="@dimen/txtsize_14"
+                        android:textStyle="normal" />
+                </LinearLayout>
+            </LinearLayout>
+            </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+
+    <include layout="@layout/bottom_bar" android:id="@+id/llnavigation" />
+</RelativeLayout>
